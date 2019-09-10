@@ -33,7 +33,7 @@ Outlined below are a few guidelines to follow to keep the HTML/CSS needs to be h
 - Avoid hard-coding colors all over, try to keep colors in the `_palette.scss`. Follow examples in `_mixin.scss`, etc.
 
 ## Javascript
-- Javascript hook classes should be prefaced with 'js-' in order to increase clarity. For example: `.js-toggle-plan`. No CSS should use these classes. NOTE: there is danger here in increased coupling between behavior and structure. Use deliberately and sparingly.
+- Javascript hooks should use the data attribute in order to increase clarity. For example: `<ul data-js-hook="toggle-plan">..</ul>` and accessed via `$("ul[data-js-hook='toggle-plan'])`. No CSS should use these classes. NOTE: there is danger here in increased coupling between behavior and structure. Use deliberately and sparingly.
 
 ## Media Queries
 SCSS lets you put media queries inside tags, so keep areas of the code topical. For example:
