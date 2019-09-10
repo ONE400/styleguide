@@ -10,13 +10,17 @@ Outlined below are a few guidelines to follow to keep the HTML/CSS needs to be h
 - Semantic class names based on type/function such as `login-box` instead of `col-sm-3 bold pad-right`
 - Avoid using IDs as much as possible
 - Avoid page-specific styles
+- Be concious of the difference between presentation and content
+  - Content tags: p, h1, em, etc
+  - Layout tags: div, label, section, etc
 
 ## Layout
 - Use flexbox for layout
 - Use SCSS `@extend` to build/group similar elements
 - Use `vw/vh/%` to size layout instead of `px`, if possible
 - Use `px` for text/images
-- Use HTML5 semantic tags where appropriate:  `<nav> <header> <footer> <section>`, etc instead of `<div id='navigation'>` or `<div class='content-block'>` for example
+- Use HTML5 semantic tags where appropriate:  `<nav> <header> <main> <footer> <section> <aside> <article>`, etc instead of `<div id='navigation'>` or `<div class='content-block'>` for example
+- Only use h* tags (h1,h2, etc) for content, use the label tag for labeling sections
 
 ## Whitespace
 - Use tabs instead of spaces
@@ -45,6 +49,10 @@ SCSS lets you put media queries inside tags, so keep areas of the code topical. 
   - WebP Lossy for JPGs
   - Keep fallback versions of the images for browsers that cant
   - See the following for more information: https://css-tricks.com/using-webp-images/
+
+## Accessibility
+- Use HTML5 semantic tags where appropriate:  `<nav> <header> <main> <footer> <section> <aside> <article>`, etc instead of `<div id='navigation'>` or `<div class='content-block'>` for example
+- Use ARIA attributes where appropriate: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
 
 ## Audits
 - Open Chrome Inspector/DevTools panel and go to the Audits tab and run the Audit for both desktop and mobile
