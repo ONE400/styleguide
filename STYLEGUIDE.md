@@ -53,6 +53,7 @@ SCSS lets you put media queries inside tags, so keep areas of the code topical. 
 ## Accessibility
 - Use HTML5 semantic tags where appropriate:  `<nav> <header> <main> <footer> <section> <aside> <article>`, etc instead of `<div id='navigation'>` or `<div class='content-block'>` for example
 - Use ARIA attributes where appropriate: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+- Web Accessability Standards: https://accessible.org/was/
 
 ## Audits
 - Open Chrome Inspector/DevTools panel and go to the Audits tab and run the Audit for both desktop and mobile
