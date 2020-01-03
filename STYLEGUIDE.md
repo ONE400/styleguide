@@ -60,7 +60,7 @@ SCSS lets you put media queries inside tags, so keep areas of the code topical. 
     - Goal is 90+ on each
 - Confirm scores on https://developers.google.com/speed/pagespeed/insights/
 
-### Git Workflow
+## Git Workflow
 - Create a private (feature) branch off a public branch (such as staging or master)
 - Regularly commit your work to this private branch
 - Merge the private branch back into the public branch
