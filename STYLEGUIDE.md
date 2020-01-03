@@ -61,6 +61,9 @@ SCSS lets you put media queries inside tags, so keep areas of the code topical. 
 - Confirm scores on https://developers.google.com/speed/pagespeed/insights/
 
 ## Git Workflow
+
+Article on git terminal basics: https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/
+
 - Create a private (feature) branch off a public branch (such as staging or master)
 - Regularly commit your work to this private branch
 - Merge the private branch back into the public branch
@@ -78,4 +81,5 @@ For a more indepth workflow: https://sandofsky.com/workflow/git-workflow/
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - https://css-tricks.com/using-webp-images/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+- https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/
 - https://sandofsky.com/workflow/git-workflow/
