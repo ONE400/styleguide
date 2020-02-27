@@ -28,6 +28,7 @@ Outlined below are a few guidelines to follow to keep the HTML/CSS needs to be h
 
 ## Forms
 - Wrap related form elements in `<fieldset>` tags for accessability
+- Don't use `<input type="number" />` for non-incrementing numeric input. Instead use `<input type=”text” inputmode=”numeric” pattern="[0-9]*">`. [Reference](https://technology.blog.gov.uk/2020/02/24/why-the-gov-uk-design-system-team-changed-the-input-type-for-numbers/)
 
 ## Presentation
 - Avoid hard-coding colors all over, try to keep colors in the `_palette.scss`. Follow examples in `_mixin.scss`, etc.
