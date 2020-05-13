@@ -72,6 +72,8 @@ Article on git terminal basics: https://www.liquidlight.co.uk/blog/git-for-begin
   - Use a GitHub Pull Request when working with a Project Manager
 
 For a more indepth workflow: https://sandofsky.com/workflow/git-workflow/
+Article on git branch naming conventions: https://deepsource.io/blog/git-branch-naming-conventions/
+Article on git best practices: https://sethrobertson.github.io/GitBestPractices/
 
 
 ## Resources
