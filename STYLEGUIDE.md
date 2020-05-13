@@ -23,7 +23,7 @@ Outlined below are a few guidelines to follow to keep the HTML/CSS needs to be h
 - Only use h* tags (h1,h2, etc) for content, use the label tag for labeling sections
 
 ## Whitespace
-- Use tabs instead of spaces
+- Use tabs instead of spaces (However, if a project uses spaces already, continue to use spaces)
 - Do not commit whitespace
 
 ## Forms
