@@ -62,7 +62,6 @@ SCSS lets you put media queries inside tags, so keep areas of the code topical. 
 - Confirm scores on https://developers.google.com/speed/pagespeed/insights/
 
 ## Git Workflow
-
 Article on git terminal basics: https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/
 
 - Create a private (feature) branch off a public branch (such as staging or master)
@@ -74,6 +73,7 @@ Article on git terminal basics: https://www.liquidlight.co.uk/blog/git-for-begin
 For a more indepth workflow: https://sandofsky.com/workflow/git-workflow/
 Article on git branch naming conventions: https://deepsource.io/blog/git-branch-naming-conventions/
 Article on git best practices: https://sethrobertson.github.io/GitBestPractices/
+Article on maintaining multiple git profiles: https://deepsource.io/blog/managing-different-git-profiles/
 
 
 ## Resources
